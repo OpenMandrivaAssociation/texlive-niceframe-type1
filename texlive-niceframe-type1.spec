@@ -1,6 +1,6 @@
 Name:		texlive-niceframe-type1
-Version:	44671
-Release:	2
+Version:	68091
+Release:	1
 Summary:	Type 1 versions of the fonts recommended in niceframe
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/niceframe-type1
