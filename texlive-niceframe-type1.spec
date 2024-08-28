@@ -1,5 +1,5 @@
 Name:		texlive-niceframe-type1
-Version:	68091
+Version:	71849
 Release:	1
 Summary:	Type 1 versions of the fonts recommended in niceframe
 Group:		Publishing
