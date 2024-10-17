@@ -3,7 +3,7 @@ Version:	71849
 Release:	1
 Summary:	Type 1 versions of the fonts recommended in niceframe
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/niceframe-type1
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/niceframe-type1
 License:	lppl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/niceframe-type1.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/niceframe-type1.doc.r%{version}.tar.xz
