@@ -12,9 +12,17 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/niceframe-type1.
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/niceframe-type1.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 The bundle provides Adobe Type 1 versions of the fonts bbding10,
 dingbat, karta15, umranda and umrandb.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from niceframe-type1:
+Map niceframe.map
+TL_DROPIN_EOF
